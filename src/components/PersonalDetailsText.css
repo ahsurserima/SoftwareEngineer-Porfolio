@@ -1,0 +1,51 @@
+.personal-details-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+    color: #FFFFFF; /* text color from dark theme */
+  }
+  
+  .intro-text,
+  .closing-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #FFFFFF; /* text color from dark theme */
+    margin-bottom: 20px;
+  }
+  
+  .highlight {
+    color: #007bff; /* accent color from dark theme */
+    font-weight: bold;
+  }
+  
+  .hobby-list {
+    margin-top: 20px;
+  }
+  
+  .hobby-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-left: 4px solid #007bff; /* accent color from dark theme */
+    background-color: #252525; /* darker shade for contrast */
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hobby-item:hover {
+    background-color: #333333; /* subtle hover effect for dark mode */
+  }
+  
+  .hobby-title {
+    font-size: 1.2rem;
+    color: #007bff; /* accent color from dark theme */
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .hobby-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #FFFFFF; /* text color from dark theme */
+  }
+  

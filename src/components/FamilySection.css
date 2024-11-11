@@ -1,0 +1,40 @@
+.friendship-section-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+    color: #FFFFFF; /* text color from dark theme */
+  }
+  
+  .section-intro {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #FFFFFF; /* text color from dark theme */
+    margin-bottom: 20px;
+  }
+  
+  .friendship-highlight {
+    color: #007bff; /* accent color */
+    font-weight: bold;
+  }
+  
+  .friendship-paragraph {
+    margin-bottom: 15px;
+    padding-left: 10px;
+    border-left: 3px solid #007bff; /* accent color */
+  }
+  
+  .special-note {
+    font-style: italic;
+    color: #9e9e9e; /* softer shade for emphasis */
+  }
+  
+  .concluding-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #FFFFFF;
+    margin-top: 20px;
+    padding-left: 10px;
+    border-left: 3px solid #007bff; /* accent color */
+  }
+  

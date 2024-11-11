@@ -1,0 +1,99 @@
+.myself-section-container {
+  display: flex;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #FFFFFF; /* Matching theme's text color */
+ 
+  padding: 30px;
+  box-shadow: 0 4px 20px rgba(15, 4, 65, 0.5);
+}
+
+.myself-content {
+  flex: 1;
+  padding-right: 20px;
+  max-width: 360px;
+}
+
+.myself-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #ffffff; /* Using theme's accent color */
+  margin-bottom: 20px;
+  border-bottom: 2px solid #007bff; /* Accent color */
+  padding-bottom: 10px;
+  
+}
+
+.myself-paragraph {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #1c3569; /* Slightly lighter shade for paragraph blocks */
+  border-radius: 5px;
+  border-left: 4px solid #e71e1e; /* Accent color for border */
+  font-size: 12px;
+}
+
+.myself-highlight {
+  color: #007bff; /* Accent color for highlights */
+  font-weight: bold;
+}
+
+.myself-quote-style {
+  color: #FFFFFF;
+  font-style: italic;
+  background-color: #504e4e;
+  padding: 20px;
+  border-radius: 48px;
+  border-left: 4px solid #007bff;
+  box-shadow: 0 3px 15px rgba(0, 123, 255, 0.3);
+  text-align: center;
+}
+
+.myself-image-container {
+  position: relative;
+  width: 65%;
+  float: right;
+  padding-top: 7rem;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 420px;
+  left: 60px;
+  color: white;
+  font-size: 1.2em;
+  text-shadow: 1px 1px 5px rgb(44, 42, 42);
+  padding: 5px;
+  font-style: italic;
+  font-family: monospace;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.myself-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  float: right;
+}
+
+.career-goal-text,
+.inspiration-text {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: rgba(0, 0, 50, 0.6);
+  color: white;
+  font-size: 1.1em;
+  font-style: italic;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.icon {
+  margin-right: 8px;
+  font-size: 1.3em;
+  color: #FFD700; /* Gold color for visibility */
+}

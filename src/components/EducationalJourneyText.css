@@ -1,0 +1,44 @@
+.educational-journey-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+    color: #FFFFFF; /* text color from dark theme */
+  }
+  
+  .intro-text,
+  .closing-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #FFFFFF; /* text color from dark theme */
+    margin-bottom: 20px;
+  }
+  
+  .section-highlight {
+    color: #007bff; /* accent color from dark theme */
+    font-weight: bold;
+  }
+  
+  .section-paragraph {
+    margin-bottom: 15px;
+    padding-left: 10px;
+    border-left: 3px solid #007bff; /* accent color from dark theme */
+  }
+  
+  .school-name {
+    color: #007bff; /* accent color */
+    font-weight: bold;
+  }
+  
+  .supportive-colleagues {
+    font-style: italic;
+    color: #9e9e9e; /* softer shade for emphasis */
+  }
+  
+  .conclusion-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #FFFFFF;
+    margin-top: 20px;
+  }
+  

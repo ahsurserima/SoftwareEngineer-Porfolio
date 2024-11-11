@@ -1,0 +1,66 @@
+/* Layout styling for Projects List Page */
+.projects-list-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #241e1e;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.main-content {
+    margin-left: 260px; /* Adjust for sidebar width */
+    padding: 20px;
+    flex-grow: 1;
+    max-width: calc(100% - 260px); /* Prevent horizontal overflow */
+    box-sizing: border-box;
+}
+
+.page-title {
+    display: flex;
+    align-items: center;
+    color: #1e88e5;
+    margin-bottom: 20px;
+}
+
+.source-card {
+    background-color: #1a237e;
+    color: white;
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+    background-color: #1a237e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.back-button {
+    position: absolute; /* Position it in the corner */
+    top: 5px; /* Adjust as needed */
+    left: 1px; /* Adjust as needed */
+    background-color: transparent; /* Make background transparent */
+    color: #1976d2; /* Change the icon color if needed */
+    z-index: 1000; /* Ensure it stays above other content */
+    transition: color 0.3s; /* Smooth transition on hover */
+  }
+  
+  .back-button:hover {
+    color: #155a8a; /* Darker color on hover */
+  }
+  

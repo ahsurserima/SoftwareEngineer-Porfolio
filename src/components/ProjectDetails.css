@@ -1,0 +1,94 @@
+/* Project Details Container */
+.project-details {
+    background: linear-gradient(135deg, #ffffff, #e1f5fe, #ffe0b2); /* Glossy gradient */
+    padding: 20px;
+    min-height: 100vh; /* Full height */
+    backdrop-filter: blur(10px); /* Optional: adds a frosted glass effect */
+}
+
+/* Page Title */
+.page-title {
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+/* Project Description */
+.project-description {
+    color: #666;
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+}
+
+/* Media Section */
+.media-section {
+    margin-top: 20px;
+}
+
+/* Image Slider Styles */
+.image-slider {
+    position: relative;
+    overflow: hidden; /* Hide overflow for slider */
+    border-radius: 8px;
+}
+
+.slider-image {
+    width: 100%;
+    height: auto; /* Responsive images */
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out; /* Smooth transition */
+}
+
+.slider-image.active {
+    opacity: 1; /* Show active image */
+}
+
+/* Technologies List */
+.technologies-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.technologies-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #444;
+    font-size: 1.1rem;
+}
+
+.tech-icon {
+    margin-right: 10px;
+    color: #474849; /* Icon color */
+}
+
+/* Video Overview */
+.video-overview {
+    width: 80%; /* Full width for video */
+    border-radius: 8px; /* Rounded corners */
+    margin-top: 20px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .main-content {
+        padding: 20px;
+    }
+
+    .page-title {
+        font-size: 1.5rem; /* Responsive title size */
+    }
+
+    .project-description {
+        font-size: 1rem; /* Responsive description size */
+    }
+
+    .technologies-list li {
+        font-size: 1rem; /* Smaller font for smaller screens */
+    }
+}
+
+/* Button Styles */
+button {
+    margin-top: 20px;
+}

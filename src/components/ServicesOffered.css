@@ -1,0 +1,66 @@
+.services-container {
+    padding: 3rem;
+    background: linear-gradient(135deg, #e3f2fd, #e1f5fe);
+    color: #333;
+    max-width: 67rem;
+    float: right;
+  }
+  
+  .intro h1 {
+    font-size: 2.5rem;
+    color: #004d92;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .intro p {
+    font-size: 1.1rem;
+    text-align: center;
+    color: #555;
+    margin-bottom: 2.5rem;
+  }
+  
+  .services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 0 2rem;
+  }
+  
+  .service-card {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .icon {
+    font-size: 2.5rem;
+    color: #007acc;
+    margin-bottom: 1rem;
+    animation: pulse 1.5s infinite;
+  }
+  
+  @keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+  }
+  
+  .service-card h2 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    color: #004d92;
+  }
+  
+  .service-card p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
