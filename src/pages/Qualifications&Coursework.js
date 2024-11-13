@@ -4,7 +4,7 @@ import Sidebar from "../components/Sidebar";
 import { Container, Grid, Card, CardContent, Typography, IconButton, Collapse, Box, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper,  Divider, List, ListItem, ListItemText } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import SchoolIcon from '@mui/icons-material/School';
-import TranscriptImage from '../assets/images/transcript.jpg'; // Adjust the path to your image
+import TranscriptImage from '../assets/images/transcript.png'; // Adjust the path to your image
 import "../components/Qualifications&Coursework.css";
 
 
@@ -21,37 +21,32 @@ const qualifications = [
 
 // Sample course data for both years with specific courses and scores
 const yearOneCourses = [
-  { name: "Introduction to Programming", score: 85 },
-  { name: "Mathematics for Computer Science", score: 78 },
-  { name: "Web Development Basics", score: 90 },
-  { name: "Database Management Systems", score: 88 },
-  { name: "Software Engineering Principles", score: 82 },
-  { name: "Computer Networks", score: 76 },
-  { name: "Operating Systems", score: 80 },
-  { name: "Discrete Mathematics", score: 89 },
-  { name: "Human-Computer Interaction", score: 92 },
-  { name: "Mobile App Development", score: 87 },
-  { name: "Professional Ethics in Computing", score: 95 },
-  { name: "Data Science Fundamentals", score: 79 },
-  { name: "Cloud Computing", score: 84 },
-  { name: "Game Development", score: 86 },
-  { name: "Project Management", score: 90 },
+  { name: "Software engineering fundaments", score: 53 },
+  { name: "Database systems", score: 64 },
+  { name: "Data Structures and Algorithms", score: 56 },
+  { name: "Discrete Mathematics", score: 60 },
+  { name: "Citizenship Education and Conflict Transformation", score: 53 },
+  { name: "Operating System concepts", score: 57 },
+  { name: "Communication skills", score: 59 },
+  { name: "Financial Accounting 1a", score: 71 },
+  { name: "Health Education", score: 67 },
+  { name: "Business Administration", score: 78 },
+  { name: "Visual Design concepts and development", score: 69 },
+  { name: "Introduction to programming", score: 76 },
+  { name: "Applied Statistics", score: 51 },
+  { name: "Ethics and proffessionalism", score: 72 },
+  { name: "Introduction to computer Science", score: 78 },
 ];
 
 const yearTwoCourses = [
-  { name: "Advanced Programming", score: 88 },
-  { name: "Software Testing", score: 85 },
-  { name: "Machine Learning", score: 90 },
-  { name: "Web Application Security", score: 83 },
-  { name: "Mobile Application Development", score: 91 },
-  { name: "Systems Analysis and Design", score: 80 },
-  { name: "Artificial Intelligence", score: 89 },
-  { name: "Data Analytics", score: 82 },
-  { name: "Blockchain Technology", score: 78 },
-  { name: "Agile Methodologies", score: 84 },
-  { name: "IT Project Management", score: 87 },
-  { name: "User Experience Design", score: 92 },
-  { name: "Capstone Project", score: 95 },
+  { name: "Design and analysis of algorithms", score: 56 },
+  { name: "Data communication and networking", score: 76 },
+  { name: "Software project management", score: 78 },
+  { name: "Object oriented programming1", score: 83 },
+  { name: "Internet and web designing", score: 72 },
+  { name: "Information Systems auditing", score: 67 },
+  { name: "Mini Software pproject", score: 85 },
+ 
 ];
 
 // Function to convert percentage to GPA
