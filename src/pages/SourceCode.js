@@ -6,8 +6,8 @@ import Footer from '../components/Footer';
 import '../components/SourceCode.css';
 
 const repositories = [
-  { title: "Stock Management System", description: "A complete system for managing stock, sales, and inventory in a business environment.", link: "https://github.com/username/stock-management-system" },
-  { title: "Portfolio Website", description: "My personal portfolio showcasing projects, skills, and achievements.", link: "https://github.com/username/portfolio-website" },
+  { title: "Stock Management System", description: "A complete system for managing stock, sales, and inventory in a business environment.", link: "https://github.com/ahsurserima/stockmanagement" },
+  { title: "Portfolio Website", description: "My personal portfolio showcasing projects, skills, and achievements.", link: "https://github.com/ahsurserima/SoftwareEngineer-Porfolio" },
   { title: "Mini Jobs Platform", description: "A scalable e-commerce platform with payment processing and user accounts.", link: "https://github.com/username/ecommerce-platform" },
 ];
 
