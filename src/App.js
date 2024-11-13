@@ -19,7 +19,7 @@ function App() {
   return (
     <ThemeProvider theme={darkTheme}>
       <GlobalStyles />
-      <Router>
+      <Router basename="/SoftwareEngineer-Porfolio"> {/* basename */}
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
