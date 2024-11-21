@@ -1,7 +1,7 @@
 // App.js
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { GlobalStyles } from './styles/GlobalStyles';
 import { darkTheme } from './styles/Theme';
 import Navbar from './components/Navbar';
